@@ -1,4 +1,4 @@
-import learn_testing.mymates.exception_list as El
+# import learn_testing.mymates.exception_list as El
 
 mates = [
     "Joey",
