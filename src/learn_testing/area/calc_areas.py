@@ -2,7 +2,7 @@ from learn_testing.area.exception_zero import NegativeError
 import math
 
 
-def square(a, b):
+def rectangle(a :int, b :int) ->int:
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError
     elif a < 0 or b < 0:
@@ -11,7 +11,7 @@ def square(a, b):
         return a * b
 
 
-def triangle(a, b):
+def triangle(a :int, b :int)->int:
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("not integer passed in ", __name__)
     elif a < 0 or b < 0:
@@ -20,7 +20,7 @@ def triangle(a, b):
         return a * b / 2
 
 
-def hexagon(a):
+def hexagon(a :int)->float:
     if not isinstance(a, int):
         raise TypeError("not integer passed in ", __name__)
     elif a < 0:
@@ -29,7 +29,7 @@ def hexagon(a):
         return (3 * math.sqrt(3) / 2) * pow(a, 2)
 
 
-def circle(a):
+def circle(a :int)->float:
     if not isinstance(a, int):
         raise TypeError("not integer passed in ", __name__)
     elif a < 0:

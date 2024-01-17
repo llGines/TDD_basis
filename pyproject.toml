@@ -28,5 +28,7 @@ where = ["src"]
 
 [tool.coverage]
 #source = ["/home/lluis/mambaforge/envs/calckk/lib/python3.9/site-packages/mycalc/"]
-run.omit = ["src/learn_testing/__init__.py"]
+run.omit = ["src/learn_testing/__init__.py",
+            "src/learn_testing/area/exception_zero.py",
+            "src/learn_testing/mymates/exception_list.py",]
 run.relative_files = true

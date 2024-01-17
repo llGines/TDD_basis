@@ -1,28 +1,28 @@
 import math
 
 
-def sum(a, b):
+def sum(a :int, b :int)->int:
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("not integer passed in ", __name__)
     else:
         return a + b
 
 
-def subs(a, b):
+def subs(a :int, b :int)->int:
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("not integer passed in ", __name__)
     else:
         return a - b
 
 
-def mult(a, b):
+def mult(a :int, b :int)->int:
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("not integer passed in ", __name__)
     else:
         return a * b
 
 
-def div(a, b):
+def div(a :int, b :int)->float:
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("not integer passed in ", __name__)
     elif b == 0:
@@ -31,14 +31,14 @@ def div(a, b):
         return a / b
 
 
-def power(a, b):
+def power(a :int, b :int)->int:
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("not integer passed in ", __name__)
     else:
         return pow(a, b)
 
 
-def sqrot(a):
+def sqrot(a :int)->float:
     if not isinstance(a, int):
         raise TypeError("not integer passed in ", __name__)
     elif a < 0:
