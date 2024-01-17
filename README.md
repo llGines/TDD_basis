@@ -20,7 +20,6 @@ Read our wiki about [testing](https://github.com/iPronics/iPronics-PRL/wiki/Intr
 [Coverage](https://coverage.readthedocs.io/en/7.4.0/) is the measure of how much code has been tested.
 
 # Instructions
-Clone this repo with "git clone git clone git@github.com:llGines/checkCalcCoverage.git --depth=1"
 
 navigate to parent folder and install this project with:
 
