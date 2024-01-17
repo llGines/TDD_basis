@@ -13,4 +13,3 @@ mates = [
     "Mick",
     "Nicky",
 ]
-
